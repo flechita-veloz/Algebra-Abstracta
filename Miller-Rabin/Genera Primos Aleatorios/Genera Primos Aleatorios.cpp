@@ -139,7 +139,7 @@ ULL randomBits(int b){
 ULL randomGen_Primos(int b){
 	ULL n= randomBits(b);
 	n+= (6- n%6); //n es un multiplo de 6
-	while(!esPrimoMR(n-1) && !esPrimoMR(n+1)){ //el grado de confianza es 8= {2,3,5,7,11,13,17,19}
+	while(!esPrimoMR(n-1) && !esPrimoMR(n+1)){ //el grado de confianza es 12= {2,3,5,7,11,13,17,19,23,29,31,37}
 		n+= 6; //numeros primos de forma multiplosDe6 +-1
 	}
 	if(esPrimoMR(n-1)){
