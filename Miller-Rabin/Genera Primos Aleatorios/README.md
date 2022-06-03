@@ -1,5 +1,5 @@
-El algoritmo "Genera Primos aleatorios", genera numeros primos aleatorios con la ayuda de la prueba de Miller Rabin y una funcion para generar numeros aleatorios de diferente cantidad de bits.
-Para este algoritmo utilizamos un valor de confianza igual a 12, https://oeis.org/A014233 dice: "la primacía de los números<2^64 se puede determinar afirmando una pseudoprimalidad fuerte a todas las bases principales≤ 37". 
+El algoritmo "Genera Primos aleatorios", genera numeros primos aleatorios sin Overflow, con la ayuda de la prueba de Miller Rabin y una funcion para generar numeros aleatorios de diferente cantidad de bits.
+Para este algoritmo utilizamos un valor de confianza igual a 12, que son los 12 primeros numeros primos, https://oeis.org/A014233 dice: "la primacía de los números<2^64 se puede determinar afirmando una pseudoprimalidad fuerte a todas las bases principales≤ 37". 
 La referencia es el artículo reciente "Strong pseudoprimes to doce prime bases" de Sorenson y Webster.
 
 Para su ejecucion: 
